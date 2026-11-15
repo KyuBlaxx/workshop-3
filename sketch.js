@@ -1,7 +1,7 @@
 let beat, analyzer;
 function preload() {
   beat = loadSound('beat.mp3');
-
+}
 
 function setup() {
   let myCanvas = createCanvas(600, 400);
@@ -14,7 +14,7 @@ function setup() {
 
 function mousePressed() {
   if (beat.isPlaying()) {
-    beat.stop
+    beat.stop();
   } else {
     beat.loop();
   }
