@@ -37,7 +37,9 @@ function draw() {
 
       let x = 60 + col * 80;
       let y = 80 + row * 110 + (col % 2) * 45;
-      let circleSize = 35 + rms * 350;
+      let circleSize = 35 + rms * 600;
 
   ellipse(x, y, circleSize, circleSize);
+    }
+  }
 }
