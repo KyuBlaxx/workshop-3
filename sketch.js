@@ -4,7 +4,7 @@ function preload() {
 
 
 function setup() {
-  let myCanvas = createCanvas(600,400);
+  let myCanvas = createCanvas(600, 400);
   myCanvas.parent('myContainer');
 
   analyzer = new p5.Amplitude();
