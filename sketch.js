@@ -26,7 +26,7 @@ function draw() {
   noErase();
   
   let rms = 0
-  if (analyzer.getLevel1 ()) {
+  if (analyzer.getLevel ()) {
     rms = analyzer.getLevel ();
   }
 
