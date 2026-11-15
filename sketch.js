@@ -29,7 +29,7 @@ function draw() {
     rms = analyzer.getLevel ();
   }
 
-  fill(200, 162, 200);
+  fill(235, 64, 52);
   noStroke(0);
 
   for(let row = 0; row < 3; row++) {
